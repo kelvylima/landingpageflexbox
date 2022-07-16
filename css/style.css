@@ -6,12 +6,9 @@ body {
     padding: 0;
 }
 /* parte dedicada ao cabeçalho em si */
-.header {
-    
+header {
     background-color: #1F2937;
-    
-    
- 
+    flex-grow: 1;
 }
 
 .logolinks {
@@ -115,4 +112,42 @@ a:hover {
     height: 250px;
     align-self: center;
     margin-bottom: 100px;
+}
+
+/* parte referente as caixas de imagens */
+
+#informationtitle {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    text-align: center;
+    margin: 32px;
+}
+
+
+#imagesboxes {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 60px;
+}
+
+.imagebox {
+   
+}
+
+.box {
+    border: 4px solid #3882f6;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.box img {
+    border-radius: 5px;
+}
+
+.boxtext {
+    text-align: center;
+    width: 200px;
+    font-size: 18px;
 }
