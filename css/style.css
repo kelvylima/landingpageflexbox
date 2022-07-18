@@ -226,3 +226,18 @@ a:hover {
 #calltoactionbutton .button {
     border: 2px solid #E5E7EB;
 }
+
+/*parte dedicada ao footer */
+
+footer {
+    background-color: #1F2937;
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+#footertext {
+    color: #E5E7EB;
+    font-weight: 900;
+}
